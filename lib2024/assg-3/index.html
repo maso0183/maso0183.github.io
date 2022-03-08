@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 3 - HTML Form</title>
+	<meta name ="author" content="David Mason">
+	<meta name="keywords" content="HTML, HTML5, HTML form, assignment 3"><!-- Meta keywords for the SEO -->  
+</head>
+	<body>
+		<header id="header">
+			<h1>Assignment 3 - HTML Form</h1>
+	</header>
+	<main id="form"> 
+		<!-- Start of the form coding and code for the first and last name -->
+		<form action="action_page.php">
+			<label for="fname">First Name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last Name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the email form -->
+			<label for="email">Email ID:</label><br>
+			<input type="text" id="email" name="email"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the password form -->
+			<label for="pwd">Password:</label><br>
+			<input type="password" id="pwd" name="pwd"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the intro text form -->
+			<label for="itext">Introductory Text:</label><br>
+			<textarea id="itext" name="itext" rows="4" cols="50" placeholder="Write a little about yourself!"></textarea><br>
+			
+			<!-- Code for the date of birth --> 
+			<label for="dob">Date of Birth:</label><br>
+			<input type="date" id="dob" name="dob"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!--Code for the mobile number form -->
+			<label for="phone">Mobile Number:</label><br> 
+			<input type="tel" id="phone" name="phone" placeholder="(xxx)xxx-xxxx"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br>
+
+			<!-- Code for the gender form -->
+			<p>Please select your gender.</p>
+			<input type="radio" id="male" name="gender" value="Male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="Female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="Other">
+			<label for="other">Other</label><br>
+			<input type="radio" id="na" name="gender" value="Prefer not to say">
+			<label for="na">Prefer not to say</label><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the address form -->
+			<label for="address">Address:</label><br>
+			<input type="text" id="address" name="address"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the city form -->
+			<label for="city">City:</label><br>
+			<input type="text" id="city" name="city"><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the province form -->
+			<label for="province">Select your province:</label><br>
+			<select name="province" id="province">
+				<option value="british columbia">British Columbia</option>
+				<option value="ontario">Ontario</option>
+				<option value="quebec">Quebec</option>
+				<option value="other">Other</option>
+			</select>
+				<input type="submit">
+				<input type="reset" value="Reset"><br><br>
+			
+			<!-- Code for the country form -->
+			<label for ="country">Select your country</label><br>
+			<select name="country" id="country">
+				<option value="canada">Canada</option>
+				<option value="united states">United States</option>
+				<option value ="uzbekistan">Uzbekistan</option>
+				<option value="other">Other</option>
+			</select><br>
+				<input type="submit">
+				<input type="reset" value="Reset"><br><br>
+			
+			<!-- Code for the postal code form -->
+			<label for="pcode">Postal Code:</label><br>
+			<input type="text" id="pcode">
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+			
+			<!-- Code for the hobby form -->
+			<p>Please check your favourite hobbies.</p><br>
+			<input type="checkbox" id="hob1" name="hob1" value="Reading">
+			<label for="hob1">Reading</label><br>
+			<input type="checkbox" id="hob2" name="hob2" value="Coding">
+			<label for="hob2">Coding</label><br>
+			<input type="checkbox" id="hob3" name="hob3" value="Video Games">
+			<label for="hob3">Video Games</label><br>
+			<input type="checkbox" id="hob4" name="hob4" value="Other">
+			<label for="hob4">Other</label><br>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+
+			<!-- Code for the url form -->
+			<label for="addurl">Please input the URL for your GitHub:</label><br>
+			<input type="url" id="addurl" name="addurl">
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br>
+		</form>
+	</main>
+
+</body>
+</html>
+
