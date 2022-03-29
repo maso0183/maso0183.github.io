@@ -1,0 +1,55 @@
+/* CSS code for the header */
+.header{ 
+    padding: 80px;
+    background-color: #90EE90;
+}
+/* CSS code for the cat img */
+.img {
+    float: left;
+    margin-left: 20px;
+}
+/* CSS code for the text in the header */
+.header h1{
+    display: inline;
+    padding-left: 70px;
+    vertical-align: 1cm;
+}
+/* CSS code for the nav bars */
+ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #48D1CC;
+}
+/* CSS code for the items in the list */
+li a {
+    color: black;
+    text-decoration: none;
+}
+/* CSS code for the main content  */
+.maincontent {
+    white-space: normal;
+    margin-right: 400px;
+}
+/* CSS code for the sidebar of cat and paragraph */
+aside {
+  width: 30%;
+  padding-left: 60px;
+  margin-left: 60px;
+  float: right;
+}
+/* CSS code so the three images shift to the right */
+.mediaimg{
+    float:right;
+}
+/* CSS code so the three images are beside each other */
+figure {
+    display: inline-block;
+}
+/* CSS code for the footer */
+footer{
+    padding: 80px;
+    background-color: #90EE90;
+    
+}
