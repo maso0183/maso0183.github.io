@@ -1,0 +1,170 @@
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta name="author" content="David Mason">
+                <title>Final</title>
+                <!-- This is to link my stylesheet and font sheet -->
+                <link rel="stylesheet" href="css/fonts.css">
+                <link rel="stylesheet" href="css/style.css">
+            </head>
+        
+            <body>
+            <main>
+            <section>
+                <!-- Added a class for css -->
+                <div class="mylogo">
+                    <h1 id="logo">My Logo</h1>
+                </div>
+                <div class="navbar">  
+                    <!-- Made a list for the nav bar and class/id for css -->
+                    <ul id="navbar">
+                        <li><a href=#>HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>  
+                </div>
+            </section>
+            <!-- Added a class for the about section -->
+            <div class="about">
+                <h2 id="abouthead">ABOUT</h2>
+                <!-- Made an aside tag first -->
+                <aside>
+                    <img src="img/bench.png" alt="Bench">
+                </aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>Ullamcorper eget nulla facilisi etiam dignissim diam quis. In vitae turpis massa sed elementum. Massa id neque aliquam vestibulum. 
+                    Sed id semper risus in. Ut sem nulla pharetra diam sit amet. Blandit massa enim nec dui nunc. 
+                    Placerat vestibulum lectus mauris ultrices eros in cursus. Tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Viverra adipiscing at in tellus. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. 
+                    Magna etiam tempor orci eu lobortis. Nulla facilisi etiam dignissim diam quis. 
+                    Ac ut consequat semper viverra nam libero justo laoreet sit. Elit ut aliquam purus sit amet luctus.</p>
+            </div>
+            <!-- Used the table tag to make the schedule -->
+            <div class="schedule">
+                <h3>SCHEDULE</h3>
+                <table>
+                    <tr>
+                        <th>TIME</th>
+                        <th>MONDAY</th>
+                        <th>TUESDAY</th>
+                        <th>WEDNESDAY</th>
+                        <th>THURSDAY</th>
+                        <th>FRIDAY</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 11:00</td>
+                        <td>Communications I</td>
+                        <td>Client Services</td>
+                        <td>Special Collections</td>
+                        <td>Directed Research Seminar</td>
+                        <td>Client Services</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:30</td>
+                        <td>Reference</td>
+                        <td>Internet App</td>
+                        <td>Library Software</td>
+                        <td>French</td>
+                        <td>Reference</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                        <td>Acquistions</td>
+                        <td>General Elective</td>
+                        <td>Marketing</td>
+                        <td>Emerging Library Tech</td>
+                        <td>Library Software</td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 17:30</td>
+                        <td>French</td>
+                        <td>French</td>
+                        <td>Acquistions</td>
+                        <td>Subject Analysis</td>
+                        <td>Internet App</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Aside tag for the profile info section as well as ids for css -->
+            <aside id="info">
+            <h4 id="profilehead">PROFILE INFO</h4>
+            <div class="profileinfo">
+                <img id="profilepic" src="img/profilepic.jpg" alt="profilepicture">
+                <h1>John Doe</h1>
+                <p>JohnDoe@alongquincollege.com</p>
+                <p>1385 Woodroffe Ave, Nepean,</p>
+                <p>ON, K2G 1V8</p>
+                <img src="img/mail.png" alt="email">
+            </div>   
+            </aside>
+            <!-- Code to edit the profile -->
+            <h5 id="edithead">EDIT PROFILE</h5>
+            <div class="editprofile">
+                <form action="/action_page.php">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email"><br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address"><br>
+                    <label for="city">City:</label>
+                    <input type="text" id="city"><br>
+                    <label for="province">Province:</label>
+                    <select name="provinces" id="province">
+                        <option value="ab">Alberta</option>
+                        <option value="bc">British Columbia</option>
+                        <option value="mb">Manitoba</option>
+                        <option value="newbrunswick">New Brunswick</option>
+                        <option value="nl">Newfoundland and Labrador</option>
+                        <option value="nt">Northwest Territories</option>
+                        <option value="ns">Nova Scotia</option>
+                        <option value="nu">Nunavut</option>
+                        <option value="on">Ontario</option>
+                        <option value="pei">Prince Edward Island</option>
+                        <option value="qc">Quebec</option>
+                        <option value="sk">Saskatchewan</option>
+                        <option value="yt">Yukon</option>
+                    </select><br>
+                    <label for="postalcode">Postal Code:</label>
+                    <input type="text" id="postalcode"><br>
+                    <input type="submit" value="Submit" style="float: right;">
+                </form>
+            </div>
+            </main>
+            <!-- Start of footer -->
+            <section>
+            <footer>
+                <!-- Added class for the links in footer for css -->
+                <div class="footerlinks">
+                    <h4 id="quick">QUICK LINKS</h4>
+                    <a href="#">SCHEDULE</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">CONTACT</a>
+                </div>
+                
+                <div class="followus">
+                    <h4 id="follow">FOLLOW US</h4>
+                    <figure class="mediaimg">
+                        <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>
+                        <a href="https://youtube.com"><img src="img/youtube.png" alt="youtube"></a>
+                        <a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a>
+                    </figure>
+                </div>
+
+                <div class="address">
+                    <h4>ADDRESS</h4>
+                    <p>1385 Woodroffe Ave.</p>
+                    <p>Nepean, ON K2G 1V8</p>
+                    <p>Canada</p>
+                </div>
+            </footer>
+            </section>
+        </body>
+        </html>

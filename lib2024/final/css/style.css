@@ -1,0 +1,151 @@
+/* CSS to make the nav bar look good */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5dade2;
+}
+/* CSS to make the nav bar align left */
+li {
+    float: left;
+}
+/* CSS to make the nav bar be horizontal */
+li a{
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* CSS for the first picture of a person on a bench */
+aside {
+    position: relative;
+    width: 30%;
+    padding-left: 60px;
+    margin-left: 60px;
+    float: right;
+  }
+/* CSS for the schedule table */
+  table, th, td {
+      border: 1px solid black;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  th {
+      height: 35px;
+  }
+  
+  td {
+      text-align: center;
+  }
+/* CSS for the profile info */
+  .profileinfo {
+      position: relative;
+      text-align: center;
+      border: 1px solid;
+      box-shadow: 5px 10px 8px #888888;
+      max-width: 300px;
+      font-family: 'abel-regular-webfont'
+      
+  }
+
+#info {
+    position: relative;
+    width: 30%;
+    padding-left: 60px;
+    margin-left: 60px;
+    float: right;
+  }
+/* CSS to make the profile picture rounded */
+#profilepic {
+    border-radius: 50%;
+}
+/* CSS to try and align the form and add space between each line */
+.editprofile {
+    display: inline-block;
+    padding: 3px 6px;
+    line-height: 2;
+}
+/* CSS for the links in the footer */
+a {
+    line-height: 2;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+/* CSS for the footer to make text white and footer grey */
+footer {
+    color: white;
+    clear: both;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #404040;
+}
+/* CSS code to shift the quick links left */
+.footerlinks {
+    float: left;
+}
+/* CSS code to center the follow us text */
+.followus {
+    text-align: center;
+}
+/* CSS code to try and center the media links/images */
+.mediaimg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+}
+/* CSS code to shift the address to the right */
+.address {
+    float: right;
+    position: relative;
+    bottom: 130px;
+}
+/* CSS code to add new font to the my logo text */
+#logo {
+    font-family: 'Akshar', sans-serif;
+    color: #5dade2;
+}
+/*CSS code to add font to the nav bar  */
+.navbar {
+    font-family: 'Akshar', sans-serif;
+}
+/* CSS code to add font to the about heading */
+.about {
+    font-family: 'Akshar', sans-serif;
+}
+/* CSS code to add colors to all h2 */
+h2 {
+    color: #5dade2;
+}
+/* CSS code to add font to the schedule */
+.schedule {
+    font-family: 'Akshar', sans-serif;
+}
+/* CSS code to change colors to all h3 */
+h3 {
+    color: #5dade2;
+}
+/* CSS code to change color of schedule titles */
+th {
+    color: #5dade2;
+}
+/* CSS code to change the color of profile info head */
+#profilehead {
+    color: #5dade2;
+}
+/* CSS code to change the color of edit profile heading */
+#edithead {
+    color: #5dade2;
+}
+/* CSS code to change the background */
+body {
+    background-image: url('/img/fabric.webp')
+}
+
